@@ -1,0 +1,75 @@
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background-color: #00152A;  /* Darker navy */
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.content {
+    padding: 40px;
+    max-width: 600px;
+    border: 1px solid #e0e0e0;
+}
+
+h1 {
+    font-size: 3.3rem;
+    margin-bottom: -0.5rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.tagline {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 1rem 0;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.description, .regions {
+    text-align: center;
+    margin: 2rem;
+}
+
+.contact {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #4db8ff;  /* Light blue that fits with the navy theme */
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #80ccff;  /* Lighter blue for hover state */
+}
+
+@media (max-width: 600px) {
+    .content {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .tagline {
+        font-size: 1rem;
+    }
+}
